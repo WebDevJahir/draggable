@@ -17,20 +17,23 @@ The project requirements specified the need for a board that could contain movab
 
 The initial step involved setting up a Vue.js project using a suitable boilerplate (e.g., Create Vue App). This setup provides a foundational structure for organizing components, styles, and assets.
 
-### 2. **Run the Project**
+### 2. Setting Up the Project (Vue with Vite)
 
-To run the project, follow these steps:
-- Unzip the project folder.
-- Open the terminal and navigate to the project directory.
-- Run the following command to install dependencies:
-  ```
-  npm install
-  ```
-- Run the following command to start the application:
-  ```
-    npm run dev
-    ```
-- Open a browser and navigate to `http://localhost:5173/` to view the application.
+1. **Navigate to draggable Directory**:
+   ```bash
+   cd draggable
+   ```
+
+2. **Install Node Modules**:
+   ```bash
+   npm install
+   ```
+
+4. **Run the Server**:
+   ```bash
+   npm run dev
+   ```
+   This will start the frontend on `http://localhost:5173`.
 
 
 ### 3. **State Management Design**
